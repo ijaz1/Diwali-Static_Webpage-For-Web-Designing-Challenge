@@ -124,6 +124,7 @@ nav ul li a{
     margin-top: 120px;
     transition: 0.5s;
     cursor: pointer;
+    z-index: -1;
 
     
 }
@@ -424,9 +425,7 @@ footer ul p{
 }
 @media(max-width:768px){
 
-    html{
-        font-size: 40%;
-    }
+    
     nav{
         padding: 0;
     }
@@ -437,5 +436,19 @@ footer ul p{
     .hpd{
         margin: 0;
     }
+    .im2{
+        width: 400px;
+    }
+    .vid2{
+        width: 300px;
+        border-radius: 0;
+        border-radius: 20px;
+    }
+    .vid3{
+        width: 300px;
+    }
+
 }
+
+
 
