@@ -1,12 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    border: none !important;
-    outline: none !important;
-    text-decoration: none !important;
-    text-transform: capitalize;
-    font-weight: 400;
     transition: all .2s linear;
 
 }
@@ -22,7 +16,7 @@ html{
 #ff{
     display: flex;
     background-color: rgb(8, 8, 8);
-    height: 100vh;
+    height: 100%;
     
    
 }
@@ -34,7 +28,9 @@ html{
     cursor: pointer;
 }
 .hpd{
-    margin-left: 240px;
+    
+    
+    text-align: center;
     margin-top: 120px;
     color: white;
     font-size: 50px;
@@ -43,7 +39,7 @@ html{
     cursor: pointer;
 }
 .p1{
-    margin-left: 160px;
+    text-align: center;
     margin-top: 20px;
     color: white;
     line-height: 35px;
@@ -93,7 +89,7 @@ nav ul li a{
     width: 250px;
     background-color: tomato;
     color: white;
-    margin-left: 160px;
+    
     height: 40px;
     position: relative;
     z-index: 0;
@@ -132,13 +128,13 @@ nav ul li a{
     
 }
 #sr{
-    height: 100vh;
+    height: 100%;
     background-color: rgb(12, 13, 22);
     color: white;
 }
 .hr2{
     margin-top: 120px;
-    margin-left: 160px;
+    text-align: center;
     transition: 0.5s;
     cursor: pointer;
 }
@@ -150,18 +146,17 @@ nav ul li a{
     width: 600px;
     margin-top: 120px;
     border-radius: 20px;
-    margin-left: 40px;
     transition: 0.5s;
     cursor: pointer;
 }
 #tr{
-    height: 100vh;
+    height: 100%;
     background-color: rgb(8, 8, 8);
     color: white;
 }
 .hd3{
     margin-top: 120px;
-    margin-left: 200px;
+    text-align: center;
     transition: 0.5s;
     cursor: pointer;
 }
@@ -170,14 +165,13 @@ nav ul li a{
     line-height: 35px;
 }
 #tr4{
-    height: 100vh;
+    height: 100%;
     background-color: rgb(12, 13, 22);
     color: white;
 }
 .vid2{
     width: 600px;
     margin-top: 80px;
-    margin-left: 40px;
     border-radius: 80px;
     transition: 0.5s;
     cursor: pointer;
@@ -245,14 +239,13 @@ nav ul li a{
 
 }
 .hdr4{
-    margin-left: 240px;
-    padding-top: 90px;
+    text-align: center;
     transition: 0.5s;
     cursor: pointer;
 
 }
 #frr{
-    height: 100vh;
+    height: 100%;
     background-color: rgb(8, 8, 8);
     color: white;
 }
@@ -260,13 +253,12 @@ nav ul li a{
     width: 600px;
     border-radius: 20px;
     margin-top: 160px;
-    margin-left: 40px;
     transition: 0.5s;
     cursor: pointer;
 }
 .hdr5{
     margin-top: 170px;
-    margin-left: 120px;
+    text-align: center;
     transition: 0.5s;
     cursor: pointer;
 }
@@ -275,7 +267,7 @@ nav ul li a{
     line-height: 40px;
 }
 #tr5{
-    height: 100vh;
+    height: 100%;
     background-color: black;
     color: white;
 }
@@ -297,19 +289,19 @@ nav ul li a{
     cursor: pointer;
 }
 #dme{
-    background-color: white;
-    height: 100vh;
+    background-color: rgb(12, 13, 22);
+    height: 100%;
 }
 #bo{
     color: white;
     background-color: rgb(12, 13, 22);
-    height: 90vh;
+    height: 100%;
 }
 .pme{
-    width: 200px;
+    width: 100px;
     border-radius: 50px;
-    margin-top: 60px;
-    margin-left: 270px;
+    margin-top: 40px;
+    
     transition: 0.5s;
     cursor: pointer;
 }
@@ -324,7 +316,8 @@ footer ul li a{
     text-decoration: none;
     color: black;
     font-size: 16px;
-    margin-left: 60px;   
+    float: left;  
+    padding: 10px; 
     
 }
 footer ul li{
@@ -336,7 +329,8 @@ footer ul li:hover{
 }
 .pm{
     margin-top: 180px;
-    line-height: 35px;
+    line-height: 30px;
+    height: 100%;
 }
 .ab{
     margin-top: 60px;
@@ -425,34 +419,23 @@ nav ul li:hover{
     transform: translateY(-10px);
 }
 footer ul p{
-    padding-left: 980px;
+    text-align: center;
     font-size: small;
 }
-#fs{
-    display: flex;
-    flex-direction: column;
+@media(max-width:768px){
+
+    html{
+        font-size: 40%;
+    }
+    nav{
+        padding: 0;
+    }
+    #headav a{
+        margin: 0;
+        padding: 5px;
+    }
+    .hpd{
+        margin: 0;
+    }
 }
 
-@media (max-width:768px) {
-    html{
-        font-size: 45%;
-    }
-    #headnav nav ul{
-        display: flex;
-    }  
-    #fr{
-        justify-content: space-around;
-        display: flex;
-        flex-wrap: wrap;
-        text-align: center;
-        flex-flow: column;
-    }
-    #sr {
-        justify-content: space-around;
-        display: flex;
-        flex-wrap: wrap;
-    }
- }
- .container{
-     box-sizing: border-box;
- }
