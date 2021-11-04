@@ -20,9 +20,13 @@ html{
     background-color: rgb(8, 8, 8);
 }
 #ff{
+    display: flex;
     background-color: rgb(8, 8, 8);
     height: 100vh;
+    
+   
 }
+
 .im1{
     width: 800px;
     margin-top: 20px;
@@ -424,3 +428,31 @@ footer ul p{
     padding-left: 980px;
     font-size: small;
 }
+#fs{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width:768px) {
+    html{
+        font-size: 45%;
+    }
+    #headnav nav ul{
+        display: flex;
+    }  
+    #fr{
+        justify-content: space-around;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        flex-flow: column;
+    }
+    #sr {
+        justify-content: space-around;
+        display: flex;
+        flex-wrap: wrap;
+    }
+ }
+ .container{
+     box-sizing: border-box;
+ }
